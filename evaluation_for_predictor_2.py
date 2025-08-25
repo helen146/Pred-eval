@@ -201,7 +201,7 @@ def plot_actual_histogram(a, a_thresh, bins=50, title=None):
 
 def main(actual_path, predicted_path, percentiles=None, output_dir=None):
     """
-    Main evaluation pipeline using Guth & Sapsis (2021) metrics.
+    Main evaluation pipeline using Guth & Sapsis  metrics.
     """
     try:
         if percentiles is None:
@@ -318,3 +318,4 @@ if __name__ == "__main__":
         print("2. The arrays have compatible shapes")
 
         print("3. The arrays contain valid numerical data")
+
