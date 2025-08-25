@@ -3,7 +3,6 @@ Evaluation of Machine Learning Predictors of Extreme Events in Complex Dynamical
 
 Reference:
 Guth, S. & Sapsis, T.P. (2021). Machine Learning Predictors of Extreme Events Occurring in Complex Dynamical Systems.
-Nature Communications, 12, 4868. https://doi.org/10.1038/s41467-021-25113-7
 
 Implements precision-recall curves, adjusted AUC, optimal threshold search, and volume under PR-Rate surface,
 as recommended in the above paper for evaluating predictors of rare/extreme events.
@@ -317,4 +316,5 @@ if __name__ == "__main__":
         print("\nPlease ensure:")
         print("1. Both 'Actual.npy' and 'Predicted_tau_20.npy' exist in the script directory")
         print("2. The arrays have compatible shapes")
+
         print("3. The arrays contain valid numerical data")
